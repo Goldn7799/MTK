@@ -1,7 +1,7 @@
 import os 
 import time as tm
 
-for i in range(5):
+for i in range(1000):
 	os.system("clear")
 	print('='*35)
 	print("============ Main Menu ============")
