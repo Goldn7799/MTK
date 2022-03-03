@@ -41,7 +41,7 @@ for i in range(1000):
 		one = int(input("Masukkan T : "))
 		two = int(input("Masukkan P : "))
 		three = int(input("Masukkan l : "))
-		rst = one * two * three
+		rst = two * three + two * one + three * one
 		rstl = 2 * (one + two + three)
 		print("Hasil Volume Nya Adalah", str(rst) + "CM²")
 		print("Hasil Luas Nya Adalah", str(rstl) + "CM²")
