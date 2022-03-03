@@ -41,8 +41,8 @@ for i in range(1000):
 		one = int(input("Masukkan T : "))
 		two = int(input("Masukkan P : "))
 		three = int(input("Masukkan l : "))
-		rst = two * three + two * one + three * one
-		rstl = 2 * (one + two + three)
+		rst = one * two * three
+		rstl = 2 * (two * three + two * one + three * one)
 		print("Hasil Volume Nya Adalah", str(rst) + "CM²")
 		print("Hasil Luas Nya Adalah", str(rstl) + "CM²")
 		print("Waitt 10S to Refresh")
